@@ -1,1 +1,23 @@
 eureka.client.serviceUrl.defaultZone: http://localhost:9000/eureka
+
+---
+spring:
+  profiles: subject
+words: subject
+
+---
+spring:
+  profiles: verb
+words: verb
+---
+spring:
+  profiles: article
+words: article
+---
+spring:
+  profiles: adjective
+words: adjective
+---
+spring:
+  profiles: noun
+words: noun
