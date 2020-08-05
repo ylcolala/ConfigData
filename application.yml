@@ -16,6 +16,7 @@ words: article
 ---
 spring:
   profiles: adjective
+eureka.client.healthcheck.enabled: true
 words: adjective
 ---
 spring:
